@@ -10,3 +10,6 @@ logs/
 
 .vscode/
 .idea/
+
+# Ignore trained models only
+trained_models/*.pkl
