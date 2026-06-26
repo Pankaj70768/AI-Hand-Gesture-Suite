@@ -1,6 +1,6 @@
 <p align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=32&duration=3500&pause=1000&color=00D4FF&center=true&vCenter=true&width=1000&lines=🤖+AI+Hand+Gesture+Suite;Real-Time+Hand+Gesture+Recognition;MediaPipe+%2B+Machine+Learning;99.58%25+Random+Forest+Accuracy" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&duration=3500&pause=1000&color=00D4FF&center=true&vCenter=true&width=1000&lines=AI+Hand+Gesture+Suite;Real-Time+Hand+Gesture+Recognition;MediaPipe+%7C+OpenCV+%7C+Machine+Learning;Random+Forest+Accuracy+99.58%25" alt="Typing SVG"/>
 
 </p>
 
