@@ -8,7 +8,5 @@ trained_models/*.pkl
 
 logs/
 
-results/
-
 .vscode/
 .idea/
