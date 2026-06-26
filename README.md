@@ -1,3 +1,11 @@
+![GitHub stars](https://img.shields.io/github/stars/Pankaj70768/AI-Hand-Gesture-Suite?style=for-the-badge)
+
+![GitHub forks](https://img.shields.io/github/forks/Pankaj70768/AI-Hand-Gesture-Suite?style=for-the-badge)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Pankaj70768/AI-Hand-Gesture-Suite?style=for-the-badge)
+
+![Repo Size](https://img.shields.io/github/repo-size/Pankaj70768/AI-Hand-Gesture-Suite?style=for-the-badge)
+
 <h1 align="center">🤖 AI Hand Gesture Suite</h1>
 
 <p align="center">
