@@ -1,91 +1,76 @@
-```md
-<div align="center">
-
-# 🤖 AI Hand Gesture Suite
-
-### Real-Time Hand Gesture Recognition using Machine Learning, MediaPipe & OpenCV
-
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=24&pause=1000&color=00C2FF&center=true&vCenter=true&width=900&lines=Real-Time+AI+Hand+Gesture+Recognition;Machine+Learning+Powered;99.58%25+Random+Forest+Accuracy;MediaPipe+%7C+OpenCV+%7C+Scikit-Learn;Gesture+Based+Media+Automation"/>
-
-<br>
-
 <p align="center">
 
-<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Machine%20Learning-Random%20Forest-blue?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Accuracy-99.58%25-brightgreen?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=32&duration=3500&pause=1000&color=00D4FF&center=true&vCenter=true&width=1000&lines=🤖+AI+Hand+Gesture+Suite;Real-Time+Hand+Gesture+Recognition;MediaPipe+%2B+Machine+Learning;99.58%25+Random+Forest+Accuracy" alt="Typing SVG"/>
 
 </p>
 
-<br>
+<h1 align="center">🤖 AI Hand Gesture Suite</h1>
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
-
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-success?style=for-the-badge&logo=opencv)
-
-![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange?style=for-the-badge)
-
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-red?style=for-the-badge&logo=scikitlearn)
-
-![Random Forest](https://img.shields.io/badge/Accuracy-99.58%25-brightgreen?style=for-the-badge)
-
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-
-</div>
-
----
-
-# 📷 Live Project Preview
+<p align="center">
+A Real-Time Hand Gesture Recognition System using <b>MediaPipe</b>, <b>OpenCV</b> and <b>Machine Learning</b>.
+</p>
 
 <p align="center">
 
-<img src="results/screenshots/live_prediction.png" width="950">
+<img src="https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/MediaPipe-Hand%20Tracking-FF6F00?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Status-Completed-success?style=flat-square"/>
+
+<img src="https://img.shields.io/badge/Accuracy-99.58%25-brightgreen?style=flat-square"/>
+
+<img src="https://img.shields.io/badge/Model-Random%20Forest-blue?style=flat-square"/>
+
+<img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"/>
 
 </p>
 
 ---
 
-# 📖 About The Project
+## 🎥 Live Preview
 
-AI Hand Gesture Suite is a **real-time Computer Vision and Machine Learning project** that recognizes hand gestures through a webcam and converts them into media control commands.
+<p align="center">
+<img src="results/screenshots/live_prediction.png" width="950"/>
+</p>
 
-The system uses **MediaPipe** to detect 21 hand landmarks, trains a **Random Forest classifier** on a custom dataset, and predicts gestures in real time with **99.58% accuracy**.
-
-This project demonstrates the complete machine learning lifecycle—from **dataset collection** and **model training** to **evaluation** and **real-time deployment**.
+> Detects hand gestures in real time and maps them to media control actions using a trained Random Forest model.
 
 ---
-```
-````md
-# ✨ Key Features
+# ✨ Features
 
 <table>
 <tr>
 
-<td width="33%" align="center">
+<td width="50%">
 
-## 🤖 AI Recognition
+### 🤖 AI Powered Recognition
 
-Real-time hand gesture recognition powered by **MediaPipe** and a **Random Forest** machine learning model.
-
-</td>
-
-<td width="33%" align="center">
-
-## ⚡ High Performance
-
-Achieves **99.58% accuracy** with fast and reliable predictions for smooth real-time interaction.
+- Real-time Hand Gesture Recognition
+- Machine Learning based Prediction
+- 21 Hand Landmarks using MediaPipe
+- Random Forest Classifier
+- 99.58% Prediction Accuracy
 
 </td>
 
-<td width="33%" align="center">
+<td width="50%">
 
-## 🎵 Smart Automation
+### ⚡ Smart Automation
 
-Control media playback using natural hand gestures without touching your keyboard or mouse.
+- Media Playback Control
+- Volume Up / Down
+- Next / Previous Track
+- Play / Pause
+- Easy to Extend with New Gestures
 
 </td>
 
@@ -94,35 +79,22 @@ Control media playback using natural hand gestures without touching your keyboar
 
 ---
 
-# 🚀 Features
-
-- 🎥 Real-Time Webcam Processing
-- ✋ MediaPipe Hand Landmark Detection
-- 🤖 Machine Learning Based Gesture Classification
-- 📦 Automatic Dataset Collection
-- 🌲 Random Forest Model
-- 📊 Model Comparison (Random Forest, SVM & KNN)
-- 📈 Accuracy Visualization
-- 📉 Confusion Matrix
-- 🎵 Gesture Controlled Media Playback
-- ⚡ Modular & Easy to Extend Architecture
-
----
-
-# 🎮 Supported Gestures
+# 🎯 Supported Gestures
 
 | Gesture | Label | Action |
-|:-------:|:------|:------|
-| ✋ | **open_palm** | ▶️ Play / Pause |
-| 👍 | **thumb_up** | 🔊 Volume Up |
-| 👎 | **thumb_down** | 🔉 Volume Down |
-| ✌️ | **peace** | ⏭️ Next Track |
-| ✊ | **fist** | ⏮️ Previous Track |
-| 👌 | **ok** | 🔇 Mute |
+|:-------:|:------|:-------|
+| ✋ | Open Palm | ▶️ Play / Pause |
+| 👍 | Thumb Up | 🔊 Volume Up |
+| 👎 | Thumb Down | 🔉 Volume Down |
+| ✌️ | Peace | ⏭️ Next Track |
+| ✊ | Fist | ⏮️ Previous Track |
+| 👌 | OK | 🔇 Mute |
 
 ---
 
-# 📸 Dataset Collection
+# 📸 Project Showcase
+
+## 🖐 Dataset Collection
 
 <p align="center">
 
@@ -130,14 +102,81 @@ Control media playback using natural hand gestures without touching your keyboar
 
 </p>
 
-The project includes a custom **Dataset Collector** that automatically captures the **21 hand landmarks** generated by MediaPipe and stores them into a CSV dataset. This makes it easy to train and improve the gesture recognition model with your own data.
+The dataset collector automatically extracts **21 hand landmarks** from every detected hand and stores them into a CSV dataset, making it easy to train custom Machine Learning models.
 
 ---
 
-# 📁 Project Structure
+## 🤖 Live Gesture Prediction
+
+<p align="center">
+
+<img src="results/screenshots/live_prediction.png" width="900"/>
+
+</p>
+
+The trained **Random Forest** model predicts hand gestures in real time with high confidence while continuously tracking the user's hand.
+
+---
+
+## 📊 Model Comparison
+
+<p align="center">
+
+<img src="results/screenshots/model_comparison.png" width="900"/>
+
+</p>
+
+Three different Machine Learning models were trained and evaluated to identify the most accurate classifier for gesture recognition.
+
+---
+
+## 📉 Confusion Matrix
+
+<p align="center">
+
+<img src="results/screenshots/confusion_matrix.png" width="900"/>
+
+</p>
+
+The confusion matrix demonstrates excellent classification performance with only a few isolated prediction errors.
+
+---
+# 🧠 Machine Learning Workflow
 
 ```text
-AI-Hand-Gesture-Suite
+                    📷 Webcam
+                        │
+                        ▼
+        ✋ MediaPipe Hand Detection
+                        │
+                        ▼
+          📍 21 Hand Landmarks Extracted
+                        │
+                        ▼
+            📂 Dataset Collection (CSV)
+                        │
+                        ▼
+           🛠 Feature Preprocessing
+                        │
+                        ▼
+        🤖 Random Forest / KNN / SVM
+                        │
+                        ▼
+            📊 Model Evaluation
+                        │
+                        ▼
+       🎯 Real-Time Gesture Prediction
+                        │
+                        ▼
+         🎵 Media Control Automation
+```
+
+---
+
+# 📂 Project Structure
+
+```text
+AI-Hand-Gesture-Suite/
 │
 ├── controllers/
 │   ├── gesture_mapper.py
@@ -147,53 +186,71 @@ AI-Hand-Gesture-Suite
 │   ├── camera.py
 │   ├── dataset_collector.py
 │   ├── hand_detector.py
-│   └── predictor.py
-│
-├── models/
+│   ├── predictor.py
+│   └── recognizer.py
 │
 ├── dataset/
+│   └── landmarks/
 │
-├── trained_models/
+├── logs/
+│
+├── models/
+│   ├── random_forest.py
+│   ├── svm_model.py
+│   └── knn_model.py
+│
+├── results/
+│   ├── screenshots/
+│   └── graphs/
 │
 ├── tests/
 │
-├── ui/
+├── trained_models/
 │
-├── utils/
+├── ui/
 │
 ├── compare_models.py
 ├── train_model.py
 ├── main.py
+├── requirements.txt
 └── README.md
 ```
 
 ---
-````
+
+# 📊 Model Performance
+
+| Model | Accuracy |
+|:------|---------:|
+| 🌲 Random Forest | **99.58%** |
+| 🔷 K-Nearest Neighbors | **99.16%** |
+| ⚪ Support Vector Machine | **97.90%** |
+
+🏆 **Selected Model:** **Random Forest**
+
+---
+
 # ⚙️ Installation
 
-### 1️⃣ Clone the Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/Pankaj70768/AI-Hand-Gesture-Suite.git
 ```
 
----
-
-### 2️⃣ Navigate to the Project Folder
+### Navigate
 
 ```bash
 cd AI-Hand-Gesture-Suite
 ```
 
----
-
-### 3️⃣ Create a Virtual Environment
+### Create Virtual Environment
 
 ```bash
 python -m venv .venv
 ```
 
-Activate the virtual environment
+### Activate
 
 **Windows**
 
@@ -207,108 +264,29 @@ Activate the virtual environment
 source .venv/bin/activate
 ```
 
----
-
-### 4️⃣ Install Required Packages
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-### 5️⃣ Train the Machine Learning Model
+### Train Model
 
 ```bash
 python train_model.py
 ```
 
----
-
-### 6️⃣ Compare Multiple Models
+### Compare Models
 
 ```bash
 python compare_models.py
 ```
 
----
-
-### 7️⃣ Run the Application
+### Run Application
 
 ```bash
 python main.py
 ```
-
----
-
-# 🧠 Machine Learning Workflow
-
-```text
-                Webcam
-                   │
-                   ▼
-        Hand Detection (MediaPipe)
-                   │
-                   ▼
-          21 Hand Landmarks
-                   │
-                   ▼
-          Dataset Collection
-                   │
-                   ▼
-          Feature Extraction
-                   │
-                   ▼
-         Data Preprocessing
-                   │
-                   ▼
-     Random Forest / KNN / SVM
-                   │
-                   ▼
-         Model Evaluation
-                   │
-                   ▼
-      Real-Time Gesture Prediction
-                   │
-                   ▼
-      Gesture → Media Controller
-```
-
----
-
-# 📊 Model Performance
-
-| Model | Accuracy |
-|:------|---------:|
-| 🌲 Random Forest | **99.58%** |
-| 🔷 K-Nearest Neighbors | **99.16%** |
-| ⚪ Support Vector Machine | **97.90%** |
-
-🏆 **Best Performing Model:** **Random Forest**
-
----
-
-# 📈 Model Comparison
-
-<p align="center">
-
-<img src="results/screenshots/model_comparison.png" width="900"/>
-
-</p>
-
-The project compares three different Machine Learning algorithms. Random Forest achieved the highest accuracy and was selected for real-time gesture prediction due to its excellent balance between speed and accuracy.
-
----
-
-# 📉 Confusion Matrix
-
-<p align="center">
-
-<img src="results/screenshots/confusion_matrix.png" width="900"/>
-
-</p>
-
-The confusion matrix demonstrates that the trained Random Forest classifier accurately distinguishes between supported hand gestures, with only a few isolated misclassifications across the evaluation dataset.
 
 ---
 
@@ -320,8 +298,8 @@ The confusion matrix demonstrates that the trained Random Forest classifier accu
 
 </p>
 
-| Category | Technologies |
-|-----------|--------------|
+| Category | Technology |
+|-----------|------------|
 | Programming Language | Python |
 | Computer Vision | OpenCV |
 | Hand Tracking | MediaPipe |
@@ -331,70 +309,64 @@ The confusion matrix demonstrates that the trained Random Forest classifier accu
 | Model Storage | Joblib |
 
 ---
-```md
-# 🚀 Future Enhancements
 
-Although the current system performs real-time gesture recognition with high accuracy, several advanced features can be added in future versions.
+# 🚀 Future Improvements
 
-- 🖱️ Virtual Mouse Control
+The project is designed with a modular architecture, making it easy to extend. Some planned improvements include:
+
+- 🖱️ Virtual Mouse using Hand Gestures
 - ⌨️ Virtual Keyboard
-- 💡 Screen Brightness Control
+- 💡 Brightness Control
 - 🔊 System Volume Control
-- 🎤 Voice Assistant Integration
-- 📱 Mobile Application
-- ☁️ Cloud Model Deployment
-- 🧠 Deep Learning (CNN / LSTM) Based Gesture Recognition
-- 🏠 Smart Home Device Control
-- 🎮 Gesture Controlled Gaming
+- 📱 Mobile Version
+- 🧠 Deep Learning (LSTM/CNN) Gesture Recognition
+- ☁️ Cloud-based Model Deployment
+- 🏠 Smart Home Automation
+- 🎮 Gesture-Based Gaming Controls
 
 ---
 
-# 📌 Project Statistics
+# 📈 Project Statistics
 
-| Category | Value |
-|-----------|-------|
-| 🐍 Language | Python |
-| 🤖 Machine Learning Model | Random Forest |
-| 📈 Best Accuracy | **99.58%** |
-| ✋ Supported Gestures | **6** |
-| 📷 Hand Tracking | MediaPipe |
-| 🎥 Computer Vision | OpenCV |
-| 📊 Dataset | Custom Hand Landmark Dataset |
-| 🧪 Compared Models | Random Forest, KNN, SVM |
+| Category | Details |
+|-----------|---------|
+| Programming Language | Python |
+| Machine Learning Model | Random Forest |
+| Best Accuracy | **99.58%** |
+| Hand Tracking | MediaPipe |
+| Computer Vision | OpenCV |
+| Dataset | Custom Hand Landmark Dataset |
+| Supported Gestures | 6 |
+| Compared Models | Random Forest, SVM & KNN |
 
 ---
 
-# 💡 Why This Project?
+# 💡 What I Learned
 
-Unlike traditional rule-based gesture recognition systems, this project follows a **complete Machine Learning workflow**.
+This project helped me gain practical experience in:
 
-✔ Custom Dataset Collection
-
-✔ Data Preprocessing
-
-✔ Model Training
-
-✔ Model Evaluation
-
-✔ Live Prediction
-
-✔ Real-Time Media Automation
-
-This makes the project practical, scalable, and easy to extend with new gestures.
+- Computer Vision with OpenCV
+- Hand Landmark Detection using MediaPipe
+- Machine Learning Model Training
+- Data Collection & Preprocessing
+- Model Evaluation & Comparison
+- Real-Time Prediction
+- Python Project Architecture
+- Git & GitHub Workflow
 
 ---
 
 # 🤝 Contributing
 
-Contributions are always welcome.
+Contributions are welcome!
 
-If you'd like to improve this project:
+If you would like to improve this project:
 
-1. Fork the repository.
-2. Create a new feature branch.
-3. Commit your changes.
-4. Push the branch.
-5. Open a Pull Request.
+1. Fork this repository
+2. Create a new feature branch
+3. Commit your changes
+4. Push the branch
+5. Open a Pull Request
 
 ---
 
@@ -410,14 +382,14 @@ This project is licensed under the **MIT License**.
 
 ## Pankaj
 
-**B.Tech Computer Science Engineering (Artificial Intelligence & Machine Learning)**
+**B.Tech Computer Science Engineering (AI & ML)**
 
-💙 Passionate about AI, Machine Learning, Computer Vision and Software Development.
+Passionate about Artificial Intelligence, Machine Learning, Computer Vision and Software Development.
 
 <p>
 
 <a href="https://github.com/Pankaj70768">
-<img src="https://img.shields.io/badge/GitHub-Pankaj70768-181717?style=for-the-badge&logo=github">
+<img src="https://img.shields.io/badge/GitHub-Pankaj70768-181717?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
 </p>
@@ -428,9 +400,9 @@ This project is licensed under the **MIT License**.
 
 <div align="center">
 
-## ⭐ If you found this project useful, please consider giving it a Star!
+## ⭐ If you found this project useful, consider giving it a Star.
 
-It motivates me to build more open-source AI projects.
+Thanks for visiting my repository! 🚀
 
 </div>
 
@@ -438,7 +410,6 @@ It motivates me to build more open-source AI projects.
 
 <p align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:00B4DB,100:0083B0&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:00C6FF,100:0072FF&section=footer"/>
 
 </p>
-```
